@@ -26,16 +26,37 @@ class MyApp extends StatelessWidget {
             )),
           ),
           backgroundColor: Colors.pink.shade200,
-          body: Center(
-            child: Container(
-              color: Colors.yellow,
-              height: 200,
-              width: 300,
-              child: Center(
-                child: Text("I'm in love with flutter"),
+        body: const Center(
+          child: Row(
+            children: [
+              Center(
+                child: Column(
+                  children: [
+                    Text('Nouman'),
+                    Text('data'),
+                    ElevatedButton(onPressed: BorderRadius.only , child: Text('Press')),
+                    Text('data'),
+                    ElevatedButton(onPressed: BorderRadius.only , child: Text('Press')),
+                    Text('data'),
+                    ElevatedButton(onPressed: BorderRadius.only , child: Text('Press')),
+                  ],
+                ),
               ),
-            ),
-          )),
+              Text('data'),
+              ElevatedButton(onPressed: BorderRadius.only , child: Text('Press')),
+              Text('data'),
+              ElevatedButton(onPressed: BorderRadius.only , child: Text('Press')),
+              Text('data'),
+              ElevatedButton(onPressed: BorderRadius.only , child: Text('Press')),
+              Text('data'),
+              ElevatedButton(onPressed: BorderRadius.only , child: Text('Press')),
+              Text('data'),
+              ElevatedButton(onPressed: BorderRadius.only , child: Text('Press')),
+            ],
+          ),
+        ),
+      )
     );
   }
 }
+
